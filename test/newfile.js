@@ -4,3 +4,6 @@ function genereator(x) {
 function genereator1(x) {
     return x * 2
 }
+function genereator3(x) {
+    return x * 2
+}
