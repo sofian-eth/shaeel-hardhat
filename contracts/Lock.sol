@@ -8,6 +8,7 @@ contract Lock {
     uint public unlockTime;
     address payable public owner;
     address public burnAddress = 0x000000000000000000000000000000000000dEaD;
+    address none;
 
     event Withdrawal(uint amount, uint when);
 
